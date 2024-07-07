@@ -1,2 +1,2 @@
- web: gunicorn nwtwork.wsgi
+ web: gunicorn project4.wsgi
 
