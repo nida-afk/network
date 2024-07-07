@@ -1,2 +1,2 @@
- web: gunicorn project4.wsgi
+ web: gunicorn network.wsgi
 
