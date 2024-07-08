@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',  function() {
+document.addEventListener('DOMContentLoaded',   function() {
     // Add event listeners
     document.querySelector('#all-posts').addEventListener('click', allpost);
     document.querySelector('#following').addEventListener('click', fposts);
