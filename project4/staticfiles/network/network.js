@@ -108,6 +108,7 @@ function dispost(posts) {
                 <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "font-size:large;
     font-family: serif;
     color: #6112af;" > ${post.user} </c> on ${post.timestamp}</small>
+
     <p>
                 <span class="post-likes" id="likes-count-${post.id}">Likes: ${post.likes_count}</span>
              <p>   <button id="like-button" data-post-id="${post.id}" class="btn" style = "background-color: #ff30bbcc; color: white">
@@ -117,6 +118,13 @@ function dispost(posts) {
     Edit
 </button></p>
 </p>
+<p style= "font-family: serif;
+    color: #6112af;" onclick ="show('${post.user}')">  Follow click here:<c style= "font-family: serif;
+    -webkit-text-decorations-in-effect: blink;
+    text-decoration-line: underline;
+    font-style: oblique;
+    font-size : xx-large;
+    color: #6112af;" >  ${post.user}</c> </p>
             </div>
         `;
         postcon.appendChild(pse);
