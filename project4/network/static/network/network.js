@@ -118,11 +118,13 @@ function dispost(posts) {
     Edit
 </button></p>
 </p>
-<p style= "font-family: serif; font-size: xx-large;
+<p style= "font-family: serif;
+    color: #6112af;" onclick ="show('${post.user}')">  Follow click here:<c style= "font-family: serif;
     -webkit-text-decorations-in-effect: blink;
     text-decoration-line: underline;
     font-style: oblique;
-    color: #6112af;" > Follow 
+    font-size : xx-large;
+    color: #6112af;" >  ${post.user}</c> </p>
             </div>
         `;
         postcon.appendChild(pse);
