@@ -122,7 +122,7 @@ function dispost(posts) {
     -webkit-text-decorations-in-effect: blink;
     text-decoration-line: underline;
     font-style: oblique;
-    color: #6112af;" > for more updates from 
+    color: #6112af;" > Follow 
             </div>
         `;
         postcon.appendChild(pse);
