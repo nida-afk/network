@@ -105,8 +105,11 @@ function dispost(posts) {
             <div id = "ref">
                 <p class="card-text">${post.content}</p>
                 </div>
-                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "font-size:xx-large;
-    font-family: serif;
+                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "
+    font-family: serif; font-size: xx-large;
+    -webkit-text-decorations-in-effect: blink;
+    text-decoration-line: underline;
+    font-style: oblique;
     color: #6112af;" > ${post.user} </c> on ${post.timestamp}</small>
     <p>
                 <span class="post-likes" id="likes-count-${post.id}">Likes: ${post.likes_count}</span>
