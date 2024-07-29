@@ -105,12 +105,10 @@ function dispost(posts) {
             <div id = "ref">
                 <p class="card-text">${post.content}</p>
                 </div>
-                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "
-    font-family: serif; font-size: xx-large;
-    -webkit-text-decorations-in-effect: blink;
-    text-decoration-line: underline;
-    font-style: oblique;
+                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "font-size:large;
+    font-family: serif;
     color: #6112af;" > ${post.user} </c> on ${post.timestamp}</small>
+
     <p>
                 <span class="post-likes" id="likes-count-${post.id}">Likes: ${post.likes_count}</span>
              <p>   <button id="like-button" data-post-id="${post.id}" class="btn" style = "background-color: #ff30bbcc; color: white">
@@ -120,6 +118,11 @@ function dispost(posts) {
     Edit
 </button></p>
 </p>
+<p style= "font-family: serif; font-size: xx-large;
+    -webkit-text-decorations-in-effect: blink;
+    text-decoration-line: underline;
+    font-style: oblique;
+    color: #6112af;" > for more updates from 
             </div>
         `;
         postcon.appendChild(pse);
