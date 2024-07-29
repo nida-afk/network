@@ -105,7 +105,7 @@ function dispost(posts) {
             <div id = "ref">
                 <p class="card-text">${post.content}</p>
                 </div>
-                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "font-size:large;
+                <small class="text-muted" onclick ="show('${post.user}')" >Posted by <c style = "font-size:xx-large;
     font-family: serif;
     color: #6112af;" > ${post.user} </c> on ${post.timestamp}</small>
     <p>
