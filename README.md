@@ -10,4 +10,4 @@ for specifications visit
 # [https://github.com/nida-afk/network/](https://github.com/nida-afk/network/)
 ## [demo video](https://youtu.be/rrzkCq2uOWU)
 # Deployed On
-# [https://capstone-e0i1.onrender.com](https://capstone-e0i1.onrender.com)
+# [https://network-2-h4yb.onrender.com](https://network-2-h4yb.onrender.com)
