@@ -54,6 +54,18 @@ def register(request):
                 "message": "Passwords must match."
             })
 
+        # Check username length
+        if len(username) < 4:
+            return render(request, "network/register.html", {
+                "message": "Username must be at least 4 characters long."
+            })
+
+        # Check password length
+        if len(password) < 4:
+            return render(request, "network/register.html", {
+                "message": "Password must be at least 4 characters long."
+            })
+
         try:
             user = User.objects.create_user(username, email, password)
             user.save()
