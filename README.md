@@ -4,7 +4,7 @@
  
 for specifications visit 
 # CS50W
-[https://cs50.harvard.edu/web/2020/projects/3/mail/](https://cs50.harvard.edu/web/2020/projects/4/network/)
+[https://cs50.harvard.edu/web/2020/projects/4/network/](https://cs50.harvard.edu/web/2020/projects/4/network/)
 #
 # Feel free to visit my project here
 # [https://github.com/nida-afk/network/](https://github.com/nida-afk/network/)
